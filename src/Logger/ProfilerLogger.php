@@ -115,7 +115,6 @@ class ProfilerLogger extends AbstractLogger
 			if (
 				$type === Connection::PARAM_INT_ARRAY
 				|| $type === Connection::PARAM_STR_ARRAY
-				|| $type === Connection::PARAM_ASCII_STR_ARRAY
 			) {
 				return true;
 			}
